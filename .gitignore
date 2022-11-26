@@ -1,3 +1,10 @@
+# Ignore Terraform Files
+*.tfstate
+*.tfstate.*
+*.tfvars
+.terraform/
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

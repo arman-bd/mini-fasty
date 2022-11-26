@@ -11,7 +11,7 @@ resource "kubernetes_deployment" "minifasty-deployment" {
   }
 
   spec {
-    replicas = 2
+    replicas = 5
 
     selector {
       match_labels = {

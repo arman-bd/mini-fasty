@@ -41,7 +41,8 @@ resource "kubernetes_deployment" "minifasty-deployment" {
 
 resource "kubernetes_service" "minifasty-service" {
   metadata {
-    name = "minifasty-service"
+    name      = "minifasty-service"
+    namespace = "minifasty-k8s"
   }
   spec {
     selector = kubernetes_deployment.minifasty-deployment.spec.0.template.0.metadata.0.labels

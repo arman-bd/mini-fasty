@@ -45,13 +45,20 @@ terraform init
 terraform apply
 ```
 
-### In Action
+## In Action
 
 **Kubernetes Dashboard: Workloads**
+
 <img src="images/screenshot_001.png" />
 
 **Kubernetes Dashboard: Services**
+
 <img src="images/screenshot_002.png" />
 
 **NodePort**
+
 <img src="images/screenshot_003.png" />
+
+## License
+
+This project is licensed under the terms of the [MIT license](/LICENSE).

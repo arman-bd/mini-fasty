@@ -1,5 +1,7 @@
 # Mini Fasty
-A FastAPI project with Docker, Kubernetes &amp; Terraform.
+This project is a template for a FastAPI project with Docker, Kubernetes and Terraform.
+
+* Docker Image is available at [Docker Hub](https://hub.docker.com/r/armanbd/mini-fasty).
 
 ## Requirements
 
